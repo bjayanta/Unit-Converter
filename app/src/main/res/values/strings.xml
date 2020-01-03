@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Converter</string>
+
+    <!-- main menu -->
+    <string name="menu_temperature">Temperature conversion</string>
+    <string name="menu_numeral">Numeral conversion</string>
+
+    <!-- Temperature's units -->
+    <string-array name="temperatureUnits">
+        <item>Celsius (C)</item>
+        <item>Fahrenheit (F)</item>
+        <item>Kelvin (K)</item>
+    </string-array>
+
+</resources>
