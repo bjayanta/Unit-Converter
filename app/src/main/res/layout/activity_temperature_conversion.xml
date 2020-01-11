@@ -5,7 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TemperatureConversionActivity"
+    android:orientation="vertical"
     android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"/>
+
+    <EditText
+        android:id="@+id/et_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
 
     <Spinner
         android:id="@+id/sp_from"
@@ -14,5 +31,28 @@
         android:text="@string/menu_temperature"
         android:textStyle="bold"
         android:layout_margin="8dp" />
+
+    <EditText
+        android:id="@+id/et_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" />
+
+    <Spinner
+        android:id="@+id/sp_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_temperature"
+        android:textStyle="bold"
+        android:layout_margin="8dp" />
+
+    <Button
+        android:id="@+id/btn_converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert_btn"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>

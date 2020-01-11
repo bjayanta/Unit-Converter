@@ -12,4 +12,6 @@
         <item>Kelvin (K)</item>
     </string-array>
 
+    <string name="convert_btn">Convert</string>
+
 </resources>
